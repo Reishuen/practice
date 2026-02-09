@@ -1,0 +1,26 @@
+# --- Environments ---
+# Ignore the actual Conda environment folder if you created it inside your project
+.conda/
+env/
+venv/
+ENV/
+
+# --- Python Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- OS & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Secrets & Configs ---
+.env
+*.log
